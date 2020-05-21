@@ -1,0 +1,16 @@
+{
+    "name": "aleksandar/cit",
+    "type": "project",
+    "authors": [
+        {
+            "name": "thealexandar",
+            "email": "aleksandardmitrovic@yahoo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : ""
+        }
+    }
+}

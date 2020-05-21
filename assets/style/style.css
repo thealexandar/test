@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.blue {
+  color: #2c3e50;
+}
+
+.hamburger:focus, .hamburger:active {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.custom-btn {
+  margin-top: 20px;
+  border-radius: 0 !important;
+  padding: 15px 30px !important;
+  background-color: #43C6AC !important;
+  letter-spacing: 1px;
+  font-size: 16px !important;
+  border: none !important;
+}
+
+.custom-btn:focus, .custom-btn:active {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.header {
+  min-height: 30vh;
+  padding-top: 10vh;
+  padding-bottom: 30px;
+  background: #43C6AC;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#F8FFAE), to(#43C6AC));
+  background: linear-gradient(to right, #F8FFAE, #43C6AC);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Lato', sans-serif;
+}
+
+.header h1 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #2c3e50;
+  z-index: 22222;
+  font-size: 5vw;
+  margin-bottom: 0;
+  line-height: 1em;
+}
+
+.header h3 {
+  letter-spacing: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5vw;
+  margin-bottom: 0;
+  line-height: 1em;
+  font-style: italic;
+  color: #ff7675;
+}
+
+.collapse, .collapse-content {
+  height: calc(30vh + 30px) !important;
+}
+
+.fixed-top .navbar-brand {
+  color: #50CAAC;
+}
+
+.fixed-top .nav-link {
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.main {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main .card {
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+
+.main .card:hover {
+  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.75) !important;
+  -webkit-box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.75) !important;
+  -moz-box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.75) !important;
+  -webkit-transition: 400ms ease;
+  transition: 400ms ease;
+}
+
+.main .comments .card:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.main .add-comment .form-control {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0 !important;
+}
+
+.main .add-comment .form-control:focus, .main .add-comment .form-control:active {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #50CAAC !important;
+}
+/*# sourceMappingURL=style.css.map */
